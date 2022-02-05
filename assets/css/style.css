@@ -1,0 +1,30 @@
+a{
+    text-decoration: none!important;
+}
+.navigation{
+    background-image: linear-gradient(to right, rgb(128, 135, 191), rgb(247, 187, 190));
+}
+a{
+    position:relative;
+    color: #8d8d8d!important;
+    padding-bottom: 10px;
+}
+a::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    border-bottom: 2px solid white;
+    transform: rotateY(90deg);
+    transition:color 2s,transform 1s;
+}
+a:hover::after{
+    transform: rotateY(0deg);
+}
+a:hover{
+    color:black!important;
+}
+img[alt="logo"]{
+    width: 50px;
+}
