@@ -3,6 +3,7 @@ a{
 }
 .navigation{
     background-image: linear-gradient(to right, rgb(128, 135, 191), rgb(247, 187, 190));
+    max-height: 100px;
 }
 a{
     position:relative;
@@ -27,4 +28,7 @@ a:hover{
 }
 img[alt="logo"]{
     width: 50px;
+}
+.centralZone{
+    /* background: fixed no-repeat url('images/img.jpeg'); */
 }
